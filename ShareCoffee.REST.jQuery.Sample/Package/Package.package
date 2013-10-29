@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="014932d3-a1af-497c-bef2-76799382f990" 
+        solutionId="014932d3-a1af-497c-bef2-76799382f990" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="ShareCoffee.REST.jQuery.Sample"
+        sharePointProductVersion="15.0">
+  <features>
+        <featureReference itemId="8aa3f421-e189-498b-aafb-0b67a7bad695" />
+  </features>
+</package>

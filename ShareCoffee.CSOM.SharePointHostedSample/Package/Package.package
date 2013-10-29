@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="b6ab8518-19c7-4bed-a40a-460621418a83" 
+        solutionId="b6ab8518-19c7-4bed-a40a-460621418a83" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="ShareCoffee.CSOM.SharePointHostedSample"
+        sharePointProductVersion="15.0">
+  <features>
+        <featureReference itemId="ee9bc55a-7830-484f-b64a-5b94ab1e9e76" />
+  </features>
+</package>

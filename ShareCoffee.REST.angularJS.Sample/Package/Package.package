@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="d3d93218-78bc-4fb4-8b12-c345522ed2ff" 
+        solutionId="d3d93218-78bc-4fb4-8b12-c345522ed2ff" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="ShareCoffee.REST.angularJS.Sample"
+        sharePointProductVersion="15.0">
+  <features>
+        <featureReference itemId="e9fd4189-b25a-4642-8c86-cca62e3f2e64" />
+  </features>
+</package>

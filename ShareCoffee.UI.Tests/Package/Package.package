@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="d32c76a2-5201-4402-9ec5-79b99a59dc1c" 
+        solutionId="d32c76a2-5201-4402-9ec5-79b99a59dc1c" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="ShareCoffee.UI.Tests"
+        sharePointProductVersion="15.0">
+  <features>
+        <featureReference itemId="92088093-e21e-43a4-8aea-6d30ec4bbdee" />
+  </features>
+</package>

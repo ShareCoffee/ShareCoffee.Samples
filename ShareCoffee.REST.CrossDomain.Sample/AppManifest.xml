@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--Created:cb85b80c-f585-40ff-8bfc-12ff4d0e34a9-->
+<App xmlns="http://schemas.microsoft.com/sharepoint/2012/app/manifest"
+     Name="ShareCoffeeRESTCrossDomainSample"
+     ProductID="{0cad6b1d-984c-420a-a728-94ba3d775391}"
+     Version="1.0.0.0"
+     SharePointMinVersion="15.0.0.0"
+>
+  <Properties>
+    <Title>ShareCoffee.REST.CrossDomain.Sample</Title>
+    <StartPage>~remoteAppUrl/Pages/Default.aspx?{StandardTokens}</StartPage>
+  </Properties>
+
+  <AppPrincipal>
+    <AutoDeployedWebApplication/>
+  </AppPrincipal>
+
+  <AppPrerequisites> 
+    <AppPrerequisite Type="AutoProvisioning" ID="RemoteWebHost" /> 
+  </AppPrerequisites> 
+</App>

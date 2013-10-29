@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="0edfcc50-0254-45e9-84cc-876067b20dec" 
+        solutionId="0edfcc50-0254-45e9-84cc-876067b20dec" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="ShareCoffee.REST.reqwest.Sample"
+        sharePointProductVersion="15.0">
+  <features>
+        <featureReference itemId="9844ebd4-0965-4471-b256-46ef82513900" />
+  </features>
+</package>

@@ -1,0 +1,11 @@
+﻿/* Place custom styles below */
+.sc-button {
+  cursor:pointer;
+  margin:10px;
+  padding:6px;
+  border: 1px solid #3399cc;
+}
+
+.divider {
+  height:40px;
+}
