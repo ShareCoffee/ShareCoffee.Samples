@@ -72,6 +72,10 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Scripts\ShareCoffee\ShareCoffee.js" />
+    <Content Include="Scripts\ShareCoffee\ShareCoffee.min.js" />
+    <Content Include="Scripts\ShareCoffee\ShareCoffee.src.coffee" />
+    <Content Include="Scripts\ShareCoffee\ShareCoffee.js.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -88,7 +92,6 @@
     <Content Include="Scripts\jquery-1.9.1.min.map" />
     <Content Include="packages.config" />
     <None Include="Scripts\_references.js" />
-    <Content Include="Scripts\ShareCoffee.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

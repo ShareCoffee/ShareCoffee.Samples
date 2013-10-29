@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
-  <script src="../Scripts/ShareCoffee.js" type="text/javascript"></script>
+  <script src="../Scripts/ShareCoffee/ShareCoffee.min.js" type="text/javascript"></script>
   <script src="../Scripts/jquery-1.9.1.min.js" type="text/javascript"></script>
 </head>
 <body>

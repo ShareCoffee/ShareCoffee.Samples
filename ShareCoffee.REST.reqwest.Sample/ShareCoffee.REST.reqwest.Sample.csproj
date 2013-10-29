@@ -51,6 +51,7 @@
   <ItemGroup>
     <None Include="Scripts\jquery-1.9.1.min.map" />
     <None Include="Scripts\ShareCoffee\ShareCoffee.js.map" />
+    <None Include="Scripts\ShareCoffee\ShareCoffee.src.coffee" />
     <None Include="Scripts\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{457b41d5-aeb9-4164-90a8-ca4c803c4374}</SharePointProjectItemId>
     </None>

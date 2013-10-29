@@ -8,14 +8,19 @@
 >
   <Properties>
     <Title>ShareCoffee.REST.CrossDomain.Sample</Title>
-    <StartPage>~remoteAppUrl/Pages/Default.aspx?{StandardTokens}</StartPage>
+    <StartPage>~remoteAppUrl/Default.aspx?{StandardTokens}</StartPage>
   </Properties>
 
   <AppPrincipal>
-    <AutoDeployedWebApplication/>
+
+    <Internal AllowedRemoteHostUrl="~remoteAppUrl/"/>
+    
   </AppPrincipal>
 
   <AppPrerequisites> 
     <AppPrerequisite Type="AutoProvisioning" ID="RemoteWebHost" /> 
-  </AppPrerequisites> 
+  </AppPrerequisites>
+  <AppPermissionRequests>
+    <AppPermissionRequest Scope="http://sharepoint/content/sitecollection/web" Right="Manage" />
+  </AppPermissionRequests>
 </App>

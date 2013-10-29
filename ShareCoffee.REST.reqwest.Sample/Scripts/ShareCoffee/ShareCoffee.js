@@ -162,7 +162,6 @@ ShareCoffee (c) 2013 Thorsten Hans
         error: options.onError,
         headers: {
           'Accept': ShareCoffee.REST.applicationType,
-          'X-RequestDigest': ShareCoffee.Commons.getFormDigest(),
           'Content-Type': ShareCoffee.REST.applicationType,
           'X-HTTP-Method': 'MERGE',
           'If-Match': options.eTag
@@ -200,7 +199,7 @@ ShareCoffee (c) 2013 Thorsten Hans
 
     _Class.crossDomainLibrariesLoaded = false;
 
-    _Class.loadCrossDomainLibrary = function(onSuccess, onError) {
+    _Class.loadCSOMCrossDomainLibraries = function(onSuccess, onError) {
       var onAnyError, requestExecutorScriptUrl, runtimeScriptUrl, spScriptUrl,
         _this = this;
       onAnyError = function() {
@@ -221,6 +220,24 @@ ShareCoffee (c) 2013 Thorsten Hans
             }
           }, onAnyError);
         }, onAnyError);
+      }, onAnyError);
+    };
+
+    _Class.loadCrossDomainLibrary = function(onSuccess, onError) {
+      var onAnyError, requestExecutorScriptUrl,
+        _this = this;
+      onAnyError = function() {
+        ShareCoffee.CrossDomain.crossDomainLibrariesLoaded = false;
+        if (onError) {
+          return onError();
+        }
+      };
+      requestExecutorScriptUrl = "" + (ShareCoffee.Commons.getHostWebUrl()) + "/_layouts/15/SP.RequestExecutor.js";
+      return ShareCoffee.Core.loadScript(requestExecutorScriptUrl, function() {
+        ShareCoffee.CrossDomain.crossDomainLibrariesLoaded = true;
+        if (onSuccess) {
+          return onSuccess();
+        }
       }, onAnyError);
     };
 

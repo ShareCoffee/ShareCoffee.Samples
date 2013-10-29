@@ -16,7 +16,7 @@
     <link rel="Stylesheet" type="text/css" href="../Content/App.css" />
 
     <!-- Add your JavaScript to the following file -->
-    <script src="../Scripts/ShareCoffee.js" type="text/javascript"></script>
+    <script src="../Scripts/ShareCoffee/ShareCoffee.min.js" type="text/javascript"></script>
 </asp:Content>
 
 <%-- The markup in the following Content element will be placed in the TitleArea of the page --%>
