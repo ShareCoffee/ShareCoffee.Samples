@@ -1,0 +1,46 @@
+﻿@{
+  ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+  <h1>ShareCoffee Search</h1>
+
+  <input type="text" id="query-text" />
+  <button type="button" id="do-search">Search</button>
+  <hr />
+  <div id="results">
+
+  </div>
+
+</div>
+
+@section scripts{
+  <script type="text/javascript">
+
+    $(document).ready(function () {
+      $("#do-search").click(function (e) {
+        
+        var onCrossDomainLibraryLoaded = function () {
+          var q = $("#query-text").val();
+          var e = new SP.RequestExecutor(ShareCoffee.Commons.getAppWebUrl());
+
+          var p = ShareCoffee.CrossDomain.build.read.for.SPCrossDomainLib({ url: ShareCoffee.Url.Query + "?querytext='" + q + "'" ,
+            onSuccess: function(data){
+              jsonData = JSON.parse(data.body);
+              $("#results").empty();
+              var results = jsonData.d.query.PrimaryQueryResult.RelevantResults.Table.Rows.results;
+              for (var i = 0; i < results.length; i++) {
+                $("#results").append("<div>" + results[i].Cells.results[3].Value + "</div>");
+              }
+            }});
+          e.executeAsync(p);
+            
+
+        };
+        ShareCoffee.CrossDomain.loadCrossDomainLibrary(onCrossDomainLibraryLoaded);
+        e.preventDefault();
+        return false;
+      });
+    });
+  </script>
+}

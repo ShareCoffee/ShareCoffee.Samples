@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Scripts">
+    <File Path="Scripts\App.js" Url="Scripts/App.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-1.9.1.min.map" Url="Scripts/jquery-1.9.1.min.map" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-1.9.1.min.js" Url="Scripts/jquery-1.9.1.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-1.9.1.js" Url="Scripts/jquery-1.9.1.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-1.9.1.intellisense.js" Url="Scripts/jquery-1.9.1.intellisense.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\ShareCoffee\ShareCoffee.src.coffee" Url="Scripts/ShareCoffee/ShareCoffee.src.coffee" ReplaceContent="TRUE" />
+    <File Path="Scripts\ShareCoffee\ShareCoffee.min.js" Url="Scripts/ShareCoffee/ShareCoffee.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\ShareCoffee\ShareCoffee.js.map" Url="Scripts/ShareCoffee/ShareCoffee.js.map" ReplaceContent="TRUE" />
+    <File Path="Scripts\ShareCoffee\ShareCoffee.js" Url="Scripts/ShareCoffee/ShareCoffee.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\ShareCoffee.Search\ShareCoffee.Search.src.coffee" Url="Scripts/ShareCoffee.Search/ShareCoffee.Search.src.coffee" ReplaceContent="TRUE" />
+    <File Path="Scripts\ShareCoffee.Search\ShareCoffee.Search.min.js" Url="Scripts/ShareCoffee.Search/ShareCoffee.Search.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\ShareCoffee.Search\ShareCoffee.Search.js.map" Url="Scripts/ShareCoffee.Search/ShareCoffee.Search.js.map" ReplaceContent="TRUE" />
+    <File Path="Scripts\ShareCoffee.Search\ShareCoffee.Search.js" Url="Scripts/ShareCoffee.Search/ShareCoffee.Search.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\ShareCoffee.SearchApp.coffee" Url="Scripts/ShareCoffee.SearchApp.coffee" ReplaceContent="TRUE" />
+    <File Path="Scripts\ShareCoffee.SearchApp.js" Url="Scripts/ShareCoffee.SearchApp.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\ShareCoffee.SearchApp.min.js" Url="Scripts/ShareCoffee.SearchApp.min.js" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

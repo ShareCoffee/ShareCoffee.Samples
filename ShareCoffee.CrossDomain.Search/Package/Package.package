@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="b4b07bee-8582-4709-bf03-b0da0cd71f4b" solutionId="b4b07bee-8582-4709-bf03-b0da0cd71f4b" resetWebServer="false" sharePointProductVersion="15.0" name="ShareCoffee.CrossDomain.Search" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="3496cf43-9277-4e33-914d-6fcbe67e277a" />
+  </features>
+</package>

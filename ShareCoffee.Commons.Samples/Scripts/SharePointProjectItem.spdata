@@ -7,9 +7,9 @@
     <ProjectItemFile Source="jquery-1.9.1.min.js" Target="Scripts\" Type="ElementFile" />
     <ProjectItemFile Source="jquery-1.9.1.js" Target="Scripts\" Type="ElementFile" />
     <ProjectItemFile Source="jquery-1.9.1.intellisense.js" Target="Scripts\" Type="ElementFile" />
-    <ProjectItemFile Source="ShareCoffee\ShareCoffee.src.coffee" Target="Scripts\ShareCoffee\" Type="ElementFile" />
-    <ProjectItemFile Source="ShareCoffee\ShareCoffee.min.js" Target="Scripts\ShareCoffee\" Type="ElementFile" />
     <ProjectItemFile Source="ShareCoffee\ShareCoffee.js.map" Target="Scripts\ShareCoffee\" Type="ElementFile" />
     <ProjectItemFile Source="ShareCoffee\ShareCoffee.js" Target="Scripts\ShareCoffee\" Type="ElementFile" />
+    <ProjectItemFile Source="ShareCoffee\ShareCoffee.src.coffee" Target="Scripts\ShareCoffee\" Type="ElementFile" />
+    <ProjectItemFile Source="ShareCoffee\ShareCoffee.min.js" Target="Scripts\ShareCoffee\" Type="ElementFile" />
   </Files>
 </ProjectItem>

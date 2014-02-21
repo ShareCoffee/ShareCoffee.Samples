@@ -7,9 +7,9 @@
     <File Path="Scripts\jquery-1.9.1.js" Url="Scripts/jquery-1.9.1.js" ReplaceContent="TRUE" />
     <File Path="Scripts\jquery-1.9.1.intellisense.js" Url="Scripts/jquery-1.9.1.intellisense.js" ReplaceContent="TRUE" />
     <File Path="Scripts\reqwest.js" Url="Scripts/reqwest.js" ReplaceContent="TRUE" />
-    <File Path="Scripts\ShareCoffee\ShareCoffee.src.coffee" Url="Scripts/ShareCoffee/ShareCoffee.src.coffee" ReplaceContent="TRUE" />
-    <File Path="Scripts\ShareCoffee\ShareCoffee.min.js" Url="Scripts/ShareCoffee/ShareCoffee.min.js" ReplaceContent="TRUE" />
     <File Path="Scripts\ShareCoffee\ShareCoffee.js.map" Url="Scripts/ShareCoffee/ShareCoffee.js.map" ReplaceContent="TRUE" />
     <File Path="Scripts\ShareCoffee\ShareCoffee.js" Url="Scripts/ShareCoffee/ShareCoffee.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\ShareCoffee\ShareCoffee.src.coffee" Url="Scripts/ShareCoffee/ShareCoffee.src.coffee" ReplaceContent="TRUE" />
+    <File Path="Scripts\ShareCoffee\ShareCoffee.min.js" Url="Scripts/ShareCoffee/ShareCoffee.min.js" ReplaceContent="TRUE" />
   </Module>
 </Elements>

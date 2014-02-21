@@ -80,12 +80,12 @@
     <Content Include="Scripts\ShareCoffee.Sample.js" />
     <Content Include="Scripts\ShareCoffee\ShareCoffee.js" />
     <Content Include="Scripts\ShareCoffee\ShareCoffee.min.js" />
-    <Content Include="Scripts\ShareCoffee\ShareCoffee.src.coffee" />
     <Content Include="Scripts\ShareCoffee\ShareCoffee.js.map" />
     <Content Include="Scripts\jquery-2.0.3.min.map" />
     <Content Include="Scripts\ShareCoffee\ShareCoffee.min.js.map">
       <DependentUpon>ShareCoffee.js</DependentUpon>
     </Content>
+    <Content Include="Scripts\ShareCoffee\ShareCoffee.src.coffee" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

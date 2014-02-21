@@ -1,0 +1,45 @@
+﻿/* Place custom styles below */
+.tile {
+  width: 260px;
+  height: 130px;
+  float: left;
+  margin: 3px;
+  background-color: #0094ff;
+  border-radius: 4px;
+  position: relative;
+}
+
+  .tile .name {
+    padding: 10px;
+    font-family: Helvetica, Arial, 'DejaVu Sans', 'Liberation Sans', Freesans, sans-serif;
+    font-size: 16px;
+    color: #fff;
+  }
+
+  .tile .link {
+    float: right;
+    margin: 10px;
+    margin-top: 30px;
+    font-family: Helvetica, Arial, 'DejaVu Sans', 'Liberation Sans', Freesans, sans-serif;
+    font-size: 14px;
+    color: #fff;
+  }
+
+  .tile .author {
+    position: absolute;
+    font-family: Helvetica, Arial, 'DejaVu Sans', 'Liberation Sans', Freesans, sans-serif;
+    bottom: 0px;
+    height: 30px;
+    width: 100%;
+    background-color: #333;
+    opacity: 0.3;
+  }
+
+    .tile .author span {
+      opacity: 1;
+      text-indent:7px;
+      color: #fff;
+    }
+  .tile a, .tile a:hover {
+    color:#fff;
+  }

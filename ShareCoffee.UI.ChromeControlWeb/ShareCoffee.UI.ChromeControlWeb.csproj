@@ -73,9 +73,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Scripts\ShareCoffee\ShareCoffee.js" />
+    <Content Include="Scripts\ShareCoffee\ShareCoffee.js.map" />
     <Content Include="Scripts\ShareCoffee\ShareCoffee.min.js" />
     <Content Include="Scripts\ShareCoffee\ShareCoffee.src.coffee" />
-    <Content Include="Scripts\ShareCoffee\ShareCoffee.js.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
