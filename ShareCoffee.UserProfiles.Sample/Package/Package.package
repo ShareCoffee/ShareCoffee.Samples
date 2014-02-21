@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="5d5d65ca-e32d-4b6b-b941-b20b8ed9394e" 
+        solutionId="5d5d65ca-e32d-4b6b-b941-b20b8ed9394e" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="ShareCoffee.UserProfiles.Sample"
+        sharePointProductVersion="15.0">
+  <features>
+        <featureReference itemId="4404db54-d4e5-417b-8d37-a75096ff3bb6" />
+  </features>
+</package>

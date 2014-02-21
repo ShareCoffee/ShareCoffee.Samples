@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Scripts">
+    <File Path="Scripts\App.js" Url="Scripts/App.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-1.9.1.min.map" Url="Scripts/jquery-1.9.1.min.map" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-1.9.1.min.js" Url="Scripts/jquery-1.9.1.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-1.9.1.js" Url="Scripts/jquery-1.9.1.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-1.9.1.intellisense.js" Url="Scripts/jquery-1.9.1.intellisense.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\ShareCoffee\ShareCoffee.src.coffee" Url="Scripts/ShareCoffee/ShareCoffee.src.coffee" ReplaceContent="TRUE" />
+    <File Path="Scripts\ShareCoffee\ShareCoffee.min.js" Url="Scripts/ShareCoffee/ShareCoffee.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\ShareCoffee\ShareCoffee.js.map" Url="Scripts/ShareCoffee/ShareCoffee.js.map" ReplaceContent="TRUE" />
+    <File Path="Scripts\ShareCoffee\ShareCoffee.js" Url="Scripts/ShareCoffee/ShareCoffee.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\ShareCoffee.UserProfiles\ShareCoffee.UserProfiles.src.coffee" Url="Scripts/ShareCoffee.UserProfiles/ShareCoffee.UserProfiles.src.coffee" ReplaceContent="TRUE" />
+    <File Path="Scripts\ShareCoffee.UserProfiles\ShareCoffee.UserProfiles.min.js" Url="Scripts/ShareCoffee.UserProfiles/ShareCoffee.UserProfiles.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\ShareCoffee.UserProfiles\ShareCoffee.UserProfiles.js.map" Url="Scripts/ShareCoffee.UserProfiles/ShareCoffee.UserProfiles.js.map" ReplaceContent="TRUE" />
+    <File Path="Scripts\ShareCoffee.UserProfiles\ShareCoffee.UserProfiles.js" Url="Scripts/ShareCoffee.UserProfiles/ShareCoffee.UserProfiles.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\UserProfilesApp.coffee" Url="Scripts/UserProfilesApp.coffee" ReplaceContent="TRUE" />
+    <File Path="Scripts\UserProfilesApp.js" Url="Scripts/UserProfilesApp.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\UserProfilesApp.min.js" Url="Scripts/UserProfilesApp.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\UserProfilesApp.min.js.map" Url="Scripts/UserProfilesApp.min.js.map" ReplaceContent="TRUE" />
+  </Module>
+</Elements>
